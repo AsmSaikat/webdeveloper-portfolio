@@ -95,6 +95,11 @@ nav a {
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    align-items: center;
+    margin: auto;
+}
 
 /* about section styles */
 .about {
@@ -116,4 +121,24 @@ nav a {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+} 
+
+.about-info-container {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
 }
