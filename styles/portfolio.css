@@ -142,3 +142,84 @@ main{
     font-weight: 700;
     margin-top: 5px;
 }
+
+.what-i-do-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 110px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skill {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* summary related style */
+.resume-coloumn-title {
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 21px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.resume-item-info {
+    color: #757575 ;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.hr-line {
+    margin: 30px 24px 30px 0;
+    color: #D1D1D1;;
+}
+
+.resume-description {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #757575;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 69px 0px 131px 0px;
+}
